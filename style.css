@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+h1{
+  font-size: 250px;
+  font-family: 'Luckiest Guy', cursive;
+  color: gold;
+  text-align: center;
+  padding: 1px;
+  display: block;
+  margin-bottom: 0px;
+  font-size: 120px;
+}
+
+h2{
+  font-size: 100px;
+  margin: 0 auto;
+}
+body, html {
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#questionName{
+  display:block;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#startButton{
+  width: 150px;
+  height: 50px;
+  padding: 5px 10px;
+  background-color: gold;
+  color: black;
+  font-weight: 5px;
+  font-size: 20px;
+  margin: 30px auto;
+  font-family: 'Luckiest Guy', cursive;
+  display: block;
+}
