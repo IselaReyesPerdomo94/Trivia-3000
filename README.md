@@ -38,4 +38,7 @@ No es necesaria la instalación de software adicional.
    <li>Judith Suárez López</li>
  </ul>
  
+ <h2>Agradecimiento</h2>
+  Queremos agradecer a Laboratoria por esta oportunidad y por confiar en nosotras.
+ 
  
