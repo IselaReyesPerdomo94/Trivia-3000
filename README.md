@@ -7,6 +7,7 @@
 <h2>Pre-requisitos:</h2>
 
 Solo necesitas un navegador y el siguiente link:
+https://iselareyesperdomo94.github.io/Trivia-3000/index.html
 
 <h2>Pre-instalación:</h2>
 No es necesaria la instalación de software adicional.
