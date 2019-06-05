@@ -42,15 +42,61 @@ movieButton.addEventListener("click", showMovieTrivia);
 //working in result page
 const resultsMusic = document.getElementById('resultMusic');
 const resultsMovie = document.getElementById('resultMovie');
+let userResult = document.getElementById('user-results');
 
+const correctAnswersMusic = () => {
+  let q1, q2, q3;
+//First question
+  if (document.getElementById('qm1').checked==true) {
+    q1 = 1 }
+  else {
+    q1 = 0 }
+//Second question
+  if (document.getElementById('qm2').checked==true) {
+  q2 = 1 }
+  else {
+    q2 = 0 }
+//Third question
+  if (document.getElementById('qm3').checked==true) {
+    q3 = 1 }
+  else {
+    q3 = 0 }
+
+  let total = q1+q2+q3;
+  userResult.innerHTML = total;
+  }
+
+  const correctAnswersMovie = () => {
+    let q1, q2, q3;
+  //First question
+    if (document.getElementById('qf1').checked==true) {
+      q1 = 1 }
+    else {
+      q1 = 0 }
+  //Second question
+    if (document.getElementById('qf2').checked==true) {
+    q2 = 1 }
+    else {
+      q2 = 0 }
+  //Third question
+    if (document.getElementById('qf3').checked==true) {
+      q3 = 1 }
+    else {
+      q3 = 0 }
+
+    let total = q1+q2+q3;
+    userResult.innerHTML = total;
+    }
 const showResultsMusic = () => {
   hideSection('trivia-music');
   showSection('result-page');
+  correctAnswersMusic();
 }
 
 const showResultsMovie = () => {
   hideSection('trivia-movie');
   showSection('result-page');
+  correctAnswersMovie();
 }
 resultsMusic.addEventListener("click", showResultsMusic);
 resultsMovie.addEventListener("click", showResultsMovie);
