@@ -14,7 +14,7 @@ No es necesaria la instalación de software adicional.
 <h2>¿Cómo utilizarlo?</h2>
 <ol>
  <li>Ingresas a la página web ya mencionada.</li>
- <li>Introduces tu nombre en la caja <em>"Tu nombre"</em> y das click en empezar.</li>
+ <li>Introduces tu nombre en el espacio <em>"Tu nombre"</em> y das click en empezar.</li>
   Al seguir estos pasos la página te dirige la segunda sección.
  <li>Eliges una de las dos opciones para jugar.</li>
  <li>Dependiendo de tu elección aparecerán las preguntas del tema elegido.</li>
