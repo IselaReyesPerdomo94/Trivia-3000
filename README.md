@@ -1,26 +1,41 @@
 ﻿# Trivia 3000
  
- La siguiente página muestra un juego de trivia con dos categorías opcionales para el usuario con diferentes temáticas: música y películas.  El trabajo fue realizado con HTML, Javascript y CSS por  Isela Reyes Perdomo y Judith Suárez López.
+ La siguiente página muestra un juego de trivia con dos categorias opcionales para el usuario de diferentes temáticas: Música y Películas.   
  
- 
-<img src="/">
+<a href="https://drive.google.com/open?id=11vrH5WqGVPF6JKOC_tNGQ1jubHbJkiuz">Carátula de Trivia 3000</a>
 
-<h2>Pre requisitos:</h2>
+<h2>Pre-requisitos:</h2>
 
 Solo necesitas un navegador y el siguiente link:
 
 <h2>Pre instalación:</h2>
-No es necesaria.
+No es necesaria la instalación de software adicional.
 
 <h2>¿Cómo utilizarlo?</h2>
 <ol>
  <li>Ingresas a la página web ya mencionada.</li>
- <li>Introduces tu nombre en la caja "Tu nombre" y das click en empezar</li>
+ <li>Introduces tu nombre en la caja <em>"Tu nombre"</em> y das click en empezar.</li>
   Al seguir estos pasos la página te dirige la segunda sección.
- <li>Eliges una de las dos opciones para jugar</li>
- <li>Dependiendo de tu elección aparecerán las preguntas del tema elegido</li>
- <li>Selecciona las respuestas que crees correctas y da click en el botón "Ver resultados"</li>
- <li>Posteriormente aparecerá tu puntaje y la pregunta ¿Quieres volver a jugar? con dos opciones: "Si" o "No"</li>
- <li>Si eliges la opción "Si" </li>
+ <li>Eliges una de las dos opciones para jugar.</li>
+ <li>Dependiendo de tu elección aparecerán las preguntas del tema elegido.</li>
+ <li>Selecciona las respuestas que crees correctas y da click en el botón <em>"Ver resultados"</em>.</li>
+ <li>Posteriormente aparecerá tu puntaje y la pregunta ¿Quieres volver a jugar? con dos opciones: <em>"Si"</em> o <em>"No"</e>.</li>
+ <li>Si eliges la opción <em>"Si"</em> regresarás a la sección de elegir un tema.</li>
+ <li>Si eliges la opción <em>"No"</em> te mandará a la sección final de agradecimiento.</li>
  </ol>
 
+<h2>Construido con:</h2>
+
+<ul>
+ <li>HTML</li>
+ <li>Javascript</li>
+ <li>CSS</li>
+ </ul>
+ 
+ <h2>Autoras</h2>
+  <ul>
+   <li>Isela Reyes Perdomo</li>
+   <li>Judith Suárez López</li>
+ </ul>
+ 
+ 
