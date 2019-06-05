@@ -16,6 +16,7 @@ startButton.addEventListener("click", getName);
 //working with both options
 const musicButton = document.getElementById('music-trivia');
 const movieButton = document.getElementById('movie-trivia');
+const artButton = document.getElementById('arts-trivia');
 
 const hideSection = (id) => {
   document.getElementById(id).classList.add('hide');
@@ -39,9 +40,18 @@ const showMovieTrivia = () => {
 
 movieButton.addEventListener("click", showMovieTrivia);
 
+const showArtTrivia = () => {
+  hideSection('welcome-user');
+  showSection('trivia-art');
+}
+
+artButton.addEventListener("click", showArtTrivia);
+
 //working in result page
 const resultsMusic = document.getElementById('resultMusic');
 const resultsMovie = document.getElementById('resultMovie');
+const resultsArts = document.getElementById('resultArt');
+
 let userResult = document.getElementById('user-results');
 
 const correctAnswersMusic = () => {
@@ -66,20 +76,20 @@ const correctAnswersMusic = () => {
   userResult.innerHTML = total;
   }
 
-  const correctAnswersMovie = () => {
+  const correctAnswersArt = () => {
     let q1, q2, q3;
   //First question
-    if (document.getElementById('qf1').checked==true) {
+    if (document.getElementById('qa1').checked==true) {
       q1 = 1 }
     else {
       q1 = 0 }
   //Second question
-    if (document.getElementById('qf2').checked==true) {
+    if (document.getElementById('qa2').checked==true) {
     q2 = 1 }
     else {
       q2 = 0 }
   //Third question
-    if (document.getElementById('qf3').checked==true) {
+    if (document.getElementById('qa3').checked==true) {
       q3 = 1 }
     else {
       q3 = 0 }
@@ -87,6 +97,29 @@ const correctAnswersMusic = () => {
     let total = q1+q2+q3;
     userResult.innerHTML = total;
     }
+
+    const correctAnswersMovie = () => {
+      let q1, q2, q3;
+    //First question
+      if (document.getElementById('qf1').checked==true) {
+        q1 = 1 }
+      else {
+        q1 = 0 }
+    //Second question
+      if (document.getElementById('qf2').checked==true) {
+      q2 = 1 }
+      else {
+        q2 = 0 }
+    //Third question
+      if (document.getElementById('qf3').checked==true) {
+        q3 = 1 }
+      else {
+        q3 = 0 }
+
+      let total = q1+q2+q3;
+      userResult.innerHTML = total;
+      }
+
 const showResultsMusic = () => {
   hideSection('trivia-music');
   showSection('result-page');
@@ -98,8 +131,15 @@ const showResultsMovie = () => {
   showSection('result-page');
   correctAnswersMovie();
 }
+
+const showResultsArt = () => {
+  hideSection('trivia-art');
+  showSection('result-page');
+  correctAnswersArt();
+}
 resultsMusic.addEventListener("click", showResultsMusic);
 resultsMovie.addEventListener("click", showResultsMovie);
+resultsArts.addEventListener("click", showResultsArt);
 
 const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');

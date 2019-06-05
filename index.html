@@ -30,6 +30,7 @@
         <h3>Para jugar elige tu categoría</h3>
         <input type="button" name="Música" value="Música" id="music-trivia">
         <input type="button" name="Películas" value="Películas" id="movie-trivia">
+        <input type="button" name="Arte" value="Arte" id="arts-trivia">
       </section>
         <section id="trivia-music" class="hide">
           <h2>Música</h2>
@@ -153,6 +154,66 @@
               </span>
             </label>
             <input type="button" name="result" value="¡Ver resultados!" id="resultMovie">
+        </section>
+        <section class="hide" id="trivia-art">
+        <p class="artQ">1.-¿En que siglo se inició el Renacimiento?</p>
+        <label  class="optionArt">
+          <span class="questionA">
+          <input type="radio" name="renacimiento" value="true" id="qa1"/>
+           Siglo XV
+         </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="renacimiento" value="false"/>
+            Siglo XIII
+          </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="renacimiento" value="false"/>
+            Siglo XVI
+          </span>
+        </label>
+        <p class="artQ">2.-¿Cuál de estas NO es una de las 7 maravillas del mundo antiguo?</p>
+        <label  class="optionArt">
+          <span class="questionA">
+          <input type="radio" name="maravillas" value="false"/>
+           El Faro de Alejandría
+         </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="maravillas" value="false"/>
+            Gran Pirámide de Giza
+          </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="maravillas" value="true" id="qa2"/>
+            Partenon
+          </span>
+        </label>
+        <p class="artQ">3.-¿En qué año pintó Picasso el "Guernica"?</p>
+        <label  class="optionArt">
+          <span class="questionA">
+          <input type="radio" name="picasso" value="false"/>
+           1947
+         </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="picasso" value="true" id="qa3"/>
+            1937
+          </span>
+        </label>
+        <label  class="optionArt">
+          <span class="questionA">
+        <input type="radio" name="picasso" value="false"/>
+            1927
+          </span>
+        </label>
+        <input type="button" name="result" value="¡Ver resultados!" id="resultArt">
         </section>
         <section id="result-page" class="hide">
           <h2>Tus respuestas correctas fueron:</h2>
