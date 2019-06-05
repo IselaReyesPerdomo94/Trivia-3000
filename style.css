@@ -16,6 +16,16 @@ h2{
   font-size: 100px;
   margin: 0 auto;
 }
+
+h3{
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+p{
+  font-size: 40px;
+  background-color: crimson;
+}
 body, html {
   font-family: 'Quicksand', sans-serif;
   background-color: black;
@@ -42,4 +52,97 @@ body, html {
   margin: 30px auto;
   font-family: 'Luckiest Guy', cursive;
   display: block;
+}
+
+.hide{
+  display: none;
+}
+
+#music-trivia{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  background-color: crimson;
+  padding: 5px 10px;
+  margin: 30px auto;
+  width: 200px;
+}
+
+#movie-trivia{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  background-color: green;
+  padding: 5px 10px;
+  margin: 30px 30px;
+  width: 200px;
+}
+
+.option{
+  display: block;
+  font-size: 30px;
+  margin: 20px auto;
+  color:whitesmoke;
+}
+
+.question{
+    background-color: maroon;
+}
+
+.optionMovie{
+  display: block;
+  font-size: 30px;
+  margin: 20px auto;
+  color:whitesmoke;
+}
+
+.questionM{
+    background-color: limegreen;
+}
+
+.movieP{
+  font-size: 40px;
+  background-color: green;
+}
+
+#resultMusic{
+  font-weight: 5px;
+  font-size: 50px;
+  margin: 30px auto;
+  font-family: 'Luckiest Guy', cursive;
+  display: block;
+  background-color: gold;
+}
+
+#resultMovie{
+  font-weight: 5px;
+  font-size: 50px;
+  margin: 30px auto;
+  font-family: 'Luckiest Guy', cursive;
+  display: block;
+  background-color: gold;
+}
+
+#user-result{
+  display: inline-block;
+}
+
+#yes{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  background-color: green;
+  padding: 5px 10px;
+  margin: 30px 30px;
+  width: 200px;
+}
+
+#no{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  background-color: crimson;
+  padding: 5px 10px;
+  margin: 30px 30px;
+  width: 200px;
+}
+
+#thumbs-up{
+  margin: 10px auto;
 }

@@ -24,7 +24,148 @@
         <input type="button" id="startButton" name="Empezar" value="Empezar"/>
       </section>
     </form>
-    <h2 id="userName"></h2>
+      <section id="welcome-user" class="hide">
+        <h2>Bienvenid@</h2>
+        <h2 id="userName"></h2>
+        <h3>Para jugar elige tu categoría</h3>
+        <input type="button" name="Música" value="Música" id="music-trivia">
+        <input type="button" name="Películas" value="Películas" id="movie-trivia">
+      </section>
+        <section id="trivia-music" class="hide">
+          <h2>Música</h2>
+          <p>1.- ¿Quién canta la canción de "Despacito"?</p>
+          <label  class="option">
+            <span class="question">
+            <input type="radio" name="despacito" value="true"/>
+            Luis Fonsi & Daddy Yankee
+            </span>
+            </label>
+            <label class="option">
+              <span class="question">
+            <input type="radio" name="despacito" value="false"/>
+            Luis Fonsi &  Bab Bunny
+            </span>
+            </label>
+          <label class="option">
+            <span class="question">
+            <input type="radio" name="despacito" value="false"/>
+            Luis Fonsi & Maluma
+            </span>
+            </label>
+            <p>2.- ¿A qué canción pertenece la siguiente frase?</p>
+            <p><em>Qué rico hueles a tropical, Pepino con chile y sal de mar ¿Puedo ver un destello de arena?</em></p>
+            <label  class="option">
+              <span class="question">
+            <input type="radio" name="frase" value="true"/>
+              Palmar de Caloncho
+            </span>
+            </label>
+            <label  class="option">
+              <span class="question">
+            <input type="radio" name="frase" value="false"/>
+              Muerte en Hawaii de Calle 13
+              </span>
+            </label>
+            <label  class="option">
+              <span class="question">
+            <input type="radio" name="frase" value="false"/>
+              Mi tierra veracruzana de Natalia Lafourcade
+              </span>
+            </label>
+            <p>3.- ¿Cuántos discos tiene la banda The Beatles?</p>
+            <label  class="option">
+              <span class="question">
+              <input type="radio" name="beatles" value="false"/>
+              34
+             </span>
+            </label>
+            <label  class="option">
+              <span class="question">
+            <input type="radio" name="beatles" value="false"/>
+                25
+              </span>
+            </label>
+            <label  class="option">
+              <span class="question">
+            <input type="radio" name="beatles" value="true"/>
+                21
+              </span>
+            </label>
+            <input type="button" name="result" value="¡Ver resultados!" id="resultMusic">
+        </section>
+        <section id="trivia-movie" class="hide">
+          <h2>Películas</h2>
+          <p class="movieP">1.-En Harry Potter ¿Cuál es el hechizo asesino prohibido?</p>
+          <label  class="optionMovie">
+            <span class="questionM">
+            <input type="radio" name="h-p" value="false"/>
+            Alohomora
+            </span>
+            </label>
+            <label class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="h-p" value="false"/>
+            Arania Exomai
+            </span>
+            </label>
+          <label class="optionMovie">
+            <span class="questionM">
+            <input type="radio" name="h-p" value="true"/>
+            Avada Kedavra
+            </span>
+            </label>
+            <p class="movieP">2.-¿Qué actor interpretó al último Batman?</p>
+            <label  class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="batman" value="false"/>
+              Christian Bale
+            </span>
+            </label>
+            <label  class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="batman" value="false"/>
+              Michael Keaton
+              </span>
+            </label>
+            <label  class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="batman" value="false"/>
+              Ben Affleck
+              </span>
+            </label>
+            <p class="movieP">3.-¿De qué color es la mascada que utiliza la protagonista de ¨Loca por las compras¨?</p>
+            <label  class="optionMovie">
+              <span class="questionM">
+              <input type="radio" name="mascada" value="false"/>
+               Azul
+             </span>
+            </label>
+            <label  class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="mascada" value="true"/>
+                Verde
+              </span>
+            </label>
+            <label  class="optionMovie">
+              <span class="questionM">
+            <input type="radio" name="mascada" value="false"/>
+                Guinda
+              </span>
+            </label>
+            <input type="button" name="result" value="¡Ver resultados!" id="resultMovie">
+        </section>
+        <section id="result-page" class="hide">
+          <h2>Tus respuestar correctas fueron:</h2>
+          <h3 id="user-results"></h3>
+          <h3>de 3</h3>
+          <h3>¿Volver a jugar?</h3>
+          <input type="button" name="yes" value="¡Si!" id="yes">
+          <input type="button" name="no" value="¡No!" id="no">
+        </section>
+        <section id="thank-you" class="hide">
+          <h2>¡Gracias por jugar!</h2>
+          <img src="thumbs-up.gif" alt="thumbs up image" id="thumbs-up">
+        </section>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
