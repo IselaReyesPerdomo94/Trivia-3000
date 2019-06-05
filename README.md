@@ -5,14 +5,14 @@
  
 <img src="/">
 
-##Pre requisitos:
+<h2>Pre requisitos:</h2>
 
 Solo necesitas un navegador y el siguiente link:
 
-##Pre instalación:
+<h2>Pre instalación:</h2>
 No es necesaria.
 
-##¿Cómo utilizarlo?
+<h2>¿Cómo utilizarlo?</h2>
 <ol>
  <li>Ingresas a la página web ya mencionada.</li>
  <li>Introduces tu nombre en la caja "Tu nombre" y das click en empezar</li>
