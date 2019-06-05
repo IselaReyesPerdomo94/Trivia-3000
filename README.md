@@ -8,7 +8,7 @@
 
 Solo necesitas un navegador y el siguiente link:
 
-<h2>Pre instalación:</h2>
+<h2>Pre-instalación:</h2>
 No es necesaria la instalación de software adicional.
 
 <h2>¿Cómo utilizarlo?</h2>
