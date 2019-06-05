@@ -19,7 +19,7 @@ No es necesaria la instalación de software adicional.
  <li>Eliges una de las dos opciones para jugar.</li>
  <li>Dependiendo de tu elección aparecerán las preguntas del tema elegido.</li>
  <li>Selecciona las respuestas que crees correctas y da click en el botón <em>"Ver resultados"</em>.</li>
- <li>Posteriormente aparecerá tu puntaje y la pregunta ¿Quieres volver a jugar? con dos opciones: <em>"Si"</em> o <em>"No"</e>.</li>
+ <li>Posteriormente aparecerá tu puntaje y la pregunta ¿Quieres volver a jugar? con dos opciones: <em>"Si"</em> o <em>"No"</em>.</li>
  <li>Si eliges la opción <em>"Si"</em> regresarás a la sección de elegir un tema.</li>
  <li>Si eliges la opción <em>"No"</em> te mandará a la sección final de agradecimiento.</li>
  </ol>
