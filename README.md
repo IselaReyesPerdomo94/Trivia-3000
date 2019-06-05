@@ -2,7 +2,7 @@
  
  La siguiente página muestra un juego de trivia con dos categorias opcionales para el usuario de diferentes temáticas: Música y Películas.   
  
-<a href="https://drive.google.com/open?id=11vrH5WqGVPF6JKOC_tNGQ1jubHbJkiuz">Carátula de Trivia 3000</a>
+<img src="https://github.com/IselaReyesPerdomo94/Trivia-3000/blob/master/trivia3000.png">
 
 <h2>Pre-requisitos:</h2>
 
